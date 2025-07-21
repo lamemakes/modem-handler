@@ -1,0 +1,12 @@
+[package]
+name = "async-modem"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = "1.11.1"
+tokio = { version = "1.45.1", features = ["full"] }
+tokio-serial = "5.4.5"
+dbus-crossroads = "0.5.2"
+dbus = "0.9.7"
+chrono = "0.4.41"
